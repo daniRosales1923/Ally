@@ -12,7 +12,7 @@
         box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48); } }
     @media only screen and (min-width: 1024px) {
       .banner-content {
-        height: 50vh; } }
+        height: 25vh; } }
   .banner__subtitle {
     display: inline-block;
     position: relative;
