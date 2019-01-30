@@ -1,0 +1,44 @@
+.services {
+  margin: 0; }
+  @media only screen and (min-width: 768px) {
+    .services {
+      padding: 0 10%; } }
+  .services__content {
+    padding: 20px 10px; }
+    @media only screen and (min-width: 768px) {
+      .services__content {
+        -webkit-box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48);
+        box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48); } }
+    .services__content-card {
+      margin: 1px 0; }
+  .services-photography, .services-desing, .services-planning {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 300px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    color: #FFFFFF; }
+  .services-photography {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(181, 71, 185, 0.911)), to(rgba(21, 24, 212, 0.219))), url(../images/fotografia.jpg);
+    background-image: -webkit-linear-gradient(right, rgba(181, 71, 185, 0.911), rgba(21, 24, 212, 0.219)), url(../images/fotografia.jpg);
+    background-image: -o-linear-gradient(right, rgba(181, 71, 185, 0.911), rgba(21, 24, 212, 0.219)), url(../images/fotografia.jpg);
+    background-image: linear-gradient(to left, rgba(181, 71, 185, 0.911), rgba(21, 24, 212, 0.219)), url(../images/fotografia.jpg); }
+  .services-desing {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(181, 71, 185, 0.911)), to(rgba(17, 20, 177, 0.678))), url(../images/desing.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(181, 71, 185, 0.911), rgba(17, 20, 177, 0.678)), url(../images/desing.jpg);
+    background-image: -o-linear-gradient(top, rgba(181, 71, 185, 0.911), rgba(17, 20, 177, 0.678)), url(../images/desing.jpg);
+    background-image: linear-gradient(to bottom, rgba(181, 71, 185, 0.911), rgba(17, 20, 177, 0.678)), url(../images/desing.jpg); }
+  .services-planning {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(181, 71, 185, 0.911)), to(rgba(10, 11, 54, 0.678))), url(../images/planning.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(181, 71, 185, 0.911), rgba(10, 11, 54, 0.678)), url(../images/planning.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(181, 71, 185, 0.911), rgba(10, 11, 54, 0.678)), url(../images/planning.jpg);
+    background-image: linear-gradient(to top, rgba(181, 71, 185, 0.911), rgba(10, 11, 54, 0.678)), url(../images/planning.jpg); }

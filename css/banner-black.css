@@ -1,0 +1,18 @@
+.banner-black {
+  margin: 0; }
+  @media only screen and (min-width: 768px) {
+    .banner-black {
+      padding: 0 10%; } }
+  .banner-black__content {
+    padding: 20px;
+    background-color: black; }
+    @media only screen and (min-width: 768px) {
+      .banner-black__content {
+        -webkit-box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48);
+        box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48); } }
+  .banner-black_item {
+    padding: 10px 0;
+    margin: 5px 0;
+    color: white; }
+  .banner-black .counter {
+    font-size: 1.2em; }

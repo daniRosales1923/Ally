@@ -1,0 +1,35 @@
+.banner-desk {
+  background-color: #FFFFFF;
+  margin: 0; }
+  @media only screen and (min-width: 768px) {
+    .banner-desk {
+      padding: 0 10%;
+      margin: 0; } }
+  .banner-desk__img {
+    min-height: 360px;
+    background-image: url(../images/desktop.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .banner-desk__content {
+    padding: 20px 10px; }
+    @media only screen and (min-width: 768px) {
+      .banner-desk__content {
+        padding: 0;
+        -webkit-box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48);
+        box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48); } }
+  .banner-desk-text {
+    padding: 30px; }
+  .banner-desk__title {
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+    color: #263238; }
+    .banner-desk__title::before {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 1px;
+      background-color: currentColor;
+      top: 25px; }

@@ -1,0 +1,52 @@
+@import './variables';
+
+.footer {
+    height: 100vh;
+
+    @media only screen and (min-width: 768px) {
+        padding: 0 10%;
+        margin: 0;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        height: 50vh;
+    }
+
+    &__content{
+        padding: 10px 20px;
+        background-image: linear-gradient(rgba(101, 71, 185, 0.897) , rgba(10, 11, 54, 0.329)),
+        url(../images/could.jpg);
+        background-position: center center;
+        background-size: cover;
+        color: $white;
+
+        @media only screen and (min-width: 768px) {
+            box-shadow: 0px -7px 143px -9px rgba(0,0,0,0.48);
+        }
+
+        @media only screen and (min-width: 1024px) {
+            height: 54vh;
+        }
+        
+        &-info {
+            padding: 20px 30px;
+        }
+    }
+
+    &-social {
+        padding: 10px 100px;
+
+        @media only screen and (min-width: 1024px) {
+            padding: 10px 240px 10px 0;
+        }
+    }
+
+    &-form {
+        padding: 10px 10px;  
+    }
+
+    &-bottom {
+        margin: 0 !important;
+        padding: 5px;
+    }
+}
