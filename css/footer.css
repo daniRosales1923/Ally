@@ -1,37 +1,38 @@
-.footer {
-  height: 100vh; }
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 0 10%;
+    margin: 0; } }
+
+.footer__content {
+  height: 100vh;
+  padding: 10px 20px;
+  margin: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(101, 71, 185, 0.897)), to(rgba(10, 11, 54, 0.329))), url(../images/could.jpg);
+  background-image: -webkit-linear-gradient(rgba(101, 71, 185, 0.897), rgba(10, 11, 54, 0.329)), url(../images/could.jpg);
+  background-image: -o-linear-gradient(rgba(101, 71, 185, 0.897), rgba(10, 11, 54, 0.329)), url(../images/could.jpg);
+  background-image: linear-gradient(rgba(101, 71, 185, 0.897), rgba(10, 11, 54, 0.329)), url(../images/could.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: #FFFFFF; }
   @media only screen and (min-width: 768px) {
-    .footer {
-      padding: 0 10%;
-      margin: 0; } }
+    .footer__content {
+      -webkit-box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48);
+      box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48); } }
   @media only screen and (min-width: 1024px) {
-    .footer {
+    .footer__content {
       height: 50vh; } }
-  .footer__content {
-    padding: 10px 20px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(101, 71, 185, 0.897)), to(rgba(10, 11, 54, 0.329))), url(../images/could.jpg);
-    background-image: -webkit-linear-gradient(rgba(101, 71, 185, 0.897), rgba(10, 11, 54, 0.329)), url(../images/could.jpg);
-    background-image: -o-linear-gradient(rgba(101, 71, 185, 0.897), rgba(10, 11, 54, 0.329)), url(../images/could.jpg);
-    background-image: linear-gradient(rgba(101, 71, 185, 0.897), rgba(10, 11, 54, 0.329)), url(../images/could.jpg);
-    background-position: center center;
-    background-size: cover;
-    color: #FFFFFF; }
-    @media only screen and (min-width: 768px) {
-      .footer__content {
-        -webkit-box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48);
-        box-shadow: 0px -7px 143px -9px rgba(0, 0, 0, 0.48); } }
-    @media only screen and (min-width: 1024px) {
-      .footer__content {
-        height: 54vh; } }
-    .footer__content-info {
-      padding: 20px 30px; }
-  .footer-social {
-    padding: 10px 100px; }
-    @media only screen and (min-width: 1024px) {
-      .footer-social {
-        padding: 10px 240px 10px 0; } }
-  .footer-form {
-    padding: 10px 10px; }
-  .footer-bottom {
-    margin: 0 !important;
-    padding: 5px; }
+  .footer__content-info {
+    padding: 20px 30px; }
+
+.footer-social {
+  padding: 10px 100px; }
+  @media only screen and (min-width: 1024px) {
+    .footer-social {
+      padding: 10px 240px 10px 0; } }
+
+.footer-form {
+  padding: 10px 10px; }
+
+.footer-bottom {
+  margin: 0 !important;
+  padding: 5px; }

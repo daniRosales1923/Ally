@@ -1,19 +1,15 @@
 @import './variables';
 
 .footer {
-    height: 100vh;
-
     @media only screen and (min-width: 768px) {
         padding: 0 10%;
         margin: 0;
     }
 
-    @media only screen and (min-width: 1024px) {
-        height: 50vh;
-    }
-
     &__content{
+        height: 100vh;
         padding: 10px 20px;
+        margin: 0;
         background-image: linear-gradient(rgba(101, 71, 185, 0.897) , rgba(10, 11, 54, 0.329)),
         url(../images/could.jpg);
         background-position: center center;
@@ -25,7 +21,7 @@
         }
 
         @media only screen and (min-width: 1024px) {
-            height: 54vh;
+            height: 50vh;
         }
         
         &-info {

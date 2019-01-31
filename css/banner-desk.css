@@ -3,8 +3,7 @@
   margin: 0; }
   @media only screen and (min-width: 768px) {
     .banner-desk {
-      padding: 0 10%;
-      margin: 0; } }
+      padding: 0 10%; } }
   .banner-desk__img {
     min-height: 360px;
     background-image: url(../images/desktop.jpg);
@@ -12,7 +11,8 @@
     background-size: contain;
     background-repeat: no-repeat; }
   .banner-desk__content {
-    padding: 20px 10px; }
+    padding: 20px 10px;
+    margin: 0; }
     @media only screen and (min-width: 768px) {
       .banner-desk__content {
         padding: 0;
