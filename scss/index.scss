@@ -1,8 +1,17 @@
 @import './variables';
+@import './navbar';
+@import './banner';
+@import './grid1.css';
+@import './banner-desk.css';
+@import './banner-black.css';
+@import './services.css';
+@import './features.css';
+@import './footer.css';
 
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body,html{
@@ -166,4 +175,8 @@ textarea, input{
         min-height: 50px;
         width: 150px;
     }
+}
+
+.row {
+    margin: 0;
 }
