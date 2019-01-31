@@ -239,7 +239,10 @@
       width: 162px;
       background-position: center center;
       background-size: cover;
-      background-image: url(../images/bosque.jpg);
+      background-image: -webkit-gradient(linear, right top, left top, from(rgba(181, 71, 185, 0.705)), to(rgba(21, 24, 212, 0.219))), url(../images/bosque.jpg);
+      background-image: -webkit-linear-gradient(right, rgba(181, 71, 185, 0.705), rgba(21, 24, 212, 0.219)), url(../images/bosque.jpg);
+      background-image: -o-linear-gradient(right, rgba(181, 71, 185, 0.705), rgba(21, 24, 212, 0.219)), url(../images/bosque.jpg);
+      background-image: linear-gradient(to left, rgba(181, 71, 185, 0.705), rgba(21, 24, 212, 0.219)), url(../images/bosque.jpg);
       background-repeat: no-repeat; }
 
 @media only screen and (min-width: 768px) {
